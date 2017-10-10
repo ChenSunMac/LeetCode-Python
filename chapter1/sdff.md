@@ -35,7 +35,6 @@ Example：
             else:
                 maxLength = max(maxLength, i - start + 1)
             usedChar[s[i]] = i
-
         return maxLength
 
     if __name__ == "__main__":
