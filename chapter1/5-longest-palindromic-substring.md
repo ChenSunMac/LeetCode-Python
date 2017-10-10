@@ -10,3 +10,14 @@ Example：
   
  - Input:"cbbbbd"
   - Output: "bbbb"
+  
+## 思路
+
+  这里的难点是区分palindro的两种情况，一种是奇数，一种是偶数。
+  那么我们需要遍历字符串每个字符，
+  - 如果这是第偶数个（其编号为奇数），则利用left 和 right 去继续搜索回文
+  - vice versa，left 和 right的编号会相差1
+  - 那么 在持续满足 s[left] == s[right] 时， 继续增长left 和 right
+  并且在跳出循环 （即 不满足回文条件时）
+  - 比较当前最大的longest （利用maxDistance去记录）
+ 
