@@ -20,7 +20,7 @@ Example：
   + 一个遍历的标记：**start**去存储搜寻substring的起始位置
   + 一个temporary dictionary存储用过的字母 **usedChar = {}**
   + 一个记录存储当前最长length的变量 **maxLength**
-  
+--- 
   **Time: O(n); Space: O(n) in worst case**
   
   ```py
