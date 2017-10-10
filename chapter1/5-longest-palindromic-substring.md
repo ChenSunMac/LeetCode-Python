@@ -22,7 +22,7 @@ Example：
   - 比较当前最大的longest （利用**maxDistance**去记录）
   - 记录回文的开头和结尾 _begin and end_
   ---
-  **Time: O($$n^2$$); Space: O(n) in worst case**
+  **Time: O($$n^2$$)**
   
   ```py
     class Solution:
