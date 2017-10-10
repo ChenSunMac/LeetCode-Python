@@ -49,8 +49,6 @@ Example：
                 end = right
         return s[begin: end + 1]
     
-    
-    
     if __name__ == "__main__":
         assert Solution().longestPalindrome("abaeads") == "aba"
   ```
