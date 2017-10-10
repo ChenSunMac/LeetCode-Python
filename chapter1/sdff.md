@@ -34,7 +34,6 @@ Example：
                 start = usedChar[s[i]] + 1
             else:
                 maxLength = max(maxLength, i - start + 1)
-
             usedChar[s[i]] = i
 
         return maxLength
