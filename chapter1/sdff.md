@@ -22,7 +22,7 @@ Example：
   + 一个记录存储当前最长length的变量 maxLength
   
   ```py
-  class Solution:
+    class Solution:
     # @return an integer
     def lengthOfLongestSubstring(self, s):
         start = maxLength = 0
