@@ -26,7 +26,8 @@ Example：
     # @return an integer
     def lengthOfLongestSubstring(self, s):
         start = maxLength = 0
-        usedChar = {}
+        # a dictionary to store the used characters
+        usedChar = {}  
         
         for i in range(len(s)):
             if s[i] in usedChar and start <= usedChar[s[i]]:
