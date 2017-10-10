@@ -17,9 +17,11 @@ Example：
  - 判断这个字符在map里有没有出现
  - 判断目前map的长度是不是最长的
  所以我们需要
-  + 一个遍历的标记：start 去存储搜寻substring的起始位置
-  + 一个temporary dictionary存储用过的字母 usedChar = {}
-  + 一个记录存储当前最长length的变量 maxLength
+  + 一个遍历的标记：**start**去存储搜寻substring的起始位置
+  + 一个temporary dictionary存储用过的字母 **usedChar = {}**
+  + 一个记录存储当前最长length的变量 **maxLength**
+  
+  **Time: O(n); Space: O(n) in worst case**
   
   ```py
     class Solution:
