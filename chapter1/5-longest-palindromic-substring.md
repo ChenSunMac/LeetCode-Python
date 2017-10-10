@@ -22,4 +22,31 @@ Example：
   - 比较当前最大的longest （利用**maxDistance**去记录）
   - 记录回文的开头和结尾 _begin and end_
   
-  
+  ```py
+    class Solution:
+    # @return an integer
+    def longestPalindrome(self, s):
+        ansl, ansr, maxdistance = 0, 1, 0
+        length = len(s)
+        for i in range(1, length):
+            if i & 1 :
+                left = i / 2
+                right = left
+            else :
+                left = i / 2 - 1
+                right = left + 1
+            while (left >= 0) and (right < length) and (s[left] == s[right]):
+                left -= 1
+                right += 1
+            left += 1
+            right -= 1
+            if right - left >maxdistance:
+                maxdistance = right - left
+                ansl = left
+                ansr = right
+        return s[ansl: ansr + 1]
+    
+    
+    if __name__ == "__main__":
+        assert Solution().longestPalindrome("abaeads") == "aba"
+  ```
