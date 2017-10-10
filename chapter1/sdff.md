@@ -38,7 +38,7 @@ Example：
 
         return maxLength
 
-if __name__ == "__main__":
-    assert Solution().lengthOfLongestSubstring("abceads") == 6
+    if __name__ == "__main__":
+        assert Solution().lengthOfLongestSubstring("abceads") == 6
   ```
  
