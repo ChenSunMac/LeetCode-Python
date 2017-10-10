@@ -26,7 +26,9 @@ Example：
     class Solution:
     # @return an integer
     def longestPalindrome(self, s):
-        ansl, ansr, maxdistance = 0, 1, 0
+        if len(s) == 0:
+            return 0
+        begin, end, maxdistance = 0, 1, 0
         length = len(s)
         for i in range(1, length):
             # if i is odd
@@ -43,9 +45,10 @@ Example：
             right -= 1
             if right - left >maxdistance:
                 maxdistance = right - left
-                ansl = left
-                ansr = right
-        return s[ansl: ansr + 1]
+                begin = left
+                end = right
+        return s[begin: end + 1]
+    
     
     
     if __name__ == "__main__":
