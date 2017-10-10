@@ -19,4 +19,26 @@ Example：
  所以我们需要
   + 一个遍历的标记：start 去存储搜寻substring的起始位置
   + 一个temporary dictionary存储用过的字母 usedChar = {}
+  + 一个记录存储当前最长length的变量 maxLength
+  
+  ```py
+  class Solution:
+    # @return an integer
+    def lengthOfLongestSubstring(self, s):
+        start = maxLength = 0
+        usedChar = {}
+        
+        for i in range(len(s)):
+            if s[i] in usedChar and start <= usedChar[s[i]]:
+                start = usedChar[s[i]] + 1
+            else:
+                maxLength = max(maxLength, i - start + 1)
+
+            usedChar[s[i]] = i
+
+        return maxLength
+
+if __name__ == "__main__":
+    assert Solution().lengthOfLongestSubstring("abceads") == 6
+  ```
  
