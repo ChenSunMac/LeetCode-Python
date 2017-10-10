@@ -29,6 +29,7 @@ Example：
         ansl, ansr, maxdistance = 0, 1, 0
         length = len(s)
         for i in range(1, length):
+            # if i is odd
             if i & 1 :
                 left = i / 2
                 right = left
