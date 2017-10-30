@@ -7,7 +7,7 @@ Given a string, find the length of the longest substring without repeating chara
 Example：
  - Given "abcabcbb", the answer is "abc", which the length is 3.
  - Given "bbbbb", the answer is "b", with the length of 1.
- - Given "", the answer is "", with the length of 0.
+ - Given "", the answer is "", with the length of 0. 
  
  输出的是长度，也就是length value
  
