@@ -32,3 +32,5 @@ def missingNumber(nums):
         missing ^= i ^ num
     return missing
 ```
+Time complexity : O(n)
+Space complexity : O(1)
