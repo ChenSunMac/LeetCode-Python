@@ -20,3 +20,6 @@ def missingNumber(nums):
         if number not in num_set:
             return number
 ```
+Time complexity : O(n)(Because the set allows for O(1) containment queries and Creating num_set costs O(n) time)
+
+---
