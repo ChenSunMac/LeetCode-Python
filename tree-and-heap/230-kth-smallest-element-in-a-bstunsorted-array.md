@@ -53,6 +53,12 @@ What if the BST is modified (insert/delete operations) often and you need to fin
 
 
 ---
+# Kth Smallest Element in a unsorted array
+
+既然是array，我们可以使用heap去存储:
+遍历每一个element，然后push进heap里，
+
+
 ```py
 from heapq import heappush, heappop
 class Solution:
