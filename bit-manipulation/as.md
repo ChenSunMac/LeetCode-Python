@@ -21,5 +21,14 @@ def missingNumber(nums):
             return number
 ```
 Time complexity : O(n)(Because the set allows for O(1) containment queries and Creating num_set costs O(n) time)
-
+Space complexity : O(n)
 ---
+
+We can harness the fact that **XOR** is its own inverse to find the missing element in linear time.
+```py
+def missingNumber(self, nums):
+    missing = len(nums)
+    for i, num in enumerate(nums):
+        missing ^= i ^ num
+    return missing
+```
