@@ -33,3 +33,5 @@ modified_string = " ".join([w[0].upper() + w[1:] for w in given_string.split(" "
 
 print(modified_string)
 ```
+
+
