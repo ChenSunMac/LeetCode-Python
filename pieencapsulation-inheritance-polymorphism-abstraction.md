@@ -24,6 +24,12 @@ In Python, encapsulation is not enforced by the language, but there is a convent
 | _name  | Protected | Like a public member, but shouldn't be directly accessed from outside |
 | __name  | Private | Can't be seen and accessed from outside |
 
-
+```py
+class Car(object):
+    def __init__(self, steel_degree, fuelEfficiency, transmission):
+        self.steel = steel_degree
+        self._fuelEfficiency = fuelEfficiency
+        self.__transmission = transmission
+```
 
 
