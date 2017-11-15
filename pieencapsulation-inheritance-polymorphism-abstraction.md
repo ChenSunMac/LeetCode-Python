@@ -48,9 +48,10 @@ class Person:
         stuff
 class GreenObject:
     stuff
+#Inheritance
 class Man(Person):
     stuff
-# multiple inheritance
+#multiple inheritance
 class ManWithGreenHat(Man,GreenObject):
     stuff
 ```
