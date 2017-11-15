@@ -1,5 +1,5 @@
 # Encapsulation
-
+---
 The process of combining all of an object's attributes and methods into a single package.
 
 **Information Hiding** or **Data Hiding**
@@ -35,8 +35,9 @@ class Car(object):
     def setter(self):
         #set sth
 ```
----
+
 # Inheritance
+---
 
 Inheritance is a relationship between classes. It is a "is-a" relation.
 Subclass can invoke attributes and methods in superclass.
@@ -55,9 +56,10 @@ class Man(Person):
 class ManWithGreenHat(Man,GreenObject):
     stuff
 ```
----
+
 
 # Polymorphism
+---
 
 Polymorphism is the ability of one object to be treated and used like another object. 
 For example, we treat duck as an animal and not just as a duck. Similarly we treat dog and cat also as animals.
