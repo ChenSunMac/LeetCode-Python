@@ -30,6 +30,11 @@ class Car(object):
         self.steel = steel_degree
         self._fuelEfficiency = fuelEfficiency
         self.__transmission = transmission
+    def getter(self):
+        return sth
+    def setter(self):
+        #set sth
+        return
 ```
 
 
