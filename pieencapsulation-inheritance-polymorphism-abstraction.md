@@ -44,15 +44,15 @@ That is, inheritance allows the child class to inherit the attributes and behavi
 
 ```py
 class Person:
-    ...
-
+    def somefunction:
+        stuff
 class GreenObject:
-    ...
+    stuff
 class Man(Person):
-    ...
-
+    stuff
+# multiple inheritance
 class ManWithGreenHat(Man,GreenObject):
-    ...
+    stuff
 ```
 
 
