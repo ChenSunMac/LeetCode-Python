@@ -66,6 +66,36 @@ Static (object oriented) Languages like Java and C++ has traditional polymorphis
 
 Yet in Python like dynamic languages, polymorphism is almost everywhere.
 
+### Traditional Polymorphism
+```py
+class Animal:
+    def Name(self):
+        stuff
+    def Speak(self):
+        stuff
+
+class Dog(Animal):
+    def Name(self):
+        stuff
+    def Speak(self):
+        print ("woof!")
+        
+class Cat(Animal):
+    def Name(self):
+        stuff
+    def Speak(self):
+        print ("Meow")
+        
+class Lion(Animal):
+    def Name(self):
+        stuff
+    def Speak(self):
+        print ("Roar!")
+        
+          
+
+```
+
 
 
 
