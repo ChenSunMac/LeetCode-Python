@@ -92,7 +92,14 @@ class Lion(Animal):
     def Speak(self):
         print ("Roar!")
 ```
+### Dynamic Python
+Python is strongly typed as the interpreter keeps track of all variables types. 
 
+For example:  variables can support any objects which support ‘add’ operation. Not only integer but also string, list, tuple and dictionary can realize their relative ‘add’ operation
 
-
+```py
+1+2
+'abc' + 'cdf'
+[1,2,3] + ['c', 'e', 'f']
+```
 
