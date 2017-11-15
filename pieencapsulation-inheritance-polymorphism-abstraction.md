@@ -55,10 +55,16 @@ class Man(Person):
 class ManWithGreenHat(Man,GreenObject):
     stuff
 ```
+---
 
 # Polymorphism
 
+Polymorphism is the ability of one object to be treated and used like another object. 
+For example, we treat duck as an animal and not just as a duck. Similarly we treat dog and cat also as animals.
 
+Static (object oriented) Languages like Java and C++ has traditional polymorphism as we need to stick with types and define operations specific to the interpreter. 
+
+Yet in Python like dynamic languages, polymorphism is almost everywhere.
 
 
 
