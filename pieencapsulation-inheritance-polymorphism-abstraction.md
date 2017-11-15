@@ -34,7 +34,6 @@ class Car(object):
         return sth
     def setter(self):
         #set sth
-        return
 ```
 
 
