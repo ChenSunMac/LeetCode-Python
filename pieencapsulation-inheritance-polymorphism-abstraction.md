@@ -42,3 +42,17 @@ Inheritance is a relationship between classes. It is a "is-a" relation.
 Subclass can invoke attributes and methods in superclass.
 That is, inheritance allows the child class to inherit the attributes and behaviors of its parent.
 
+```py
+class Person:
+    ...
+
+class GreenObject:
+    ...
+class Man(Person):
+    ...
+
+class ManWithGreenHat(Man,GreenObject):
+    ...
+```
+
+
