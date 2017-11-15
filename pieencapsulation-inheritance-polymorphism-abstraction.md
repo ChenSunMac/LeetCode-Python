@@ -84,16 +84,13 @@ class Cat(Animal):
     def Name(self):
         stuff
     def Speak(self):
-        print ("Meow")
+        print ("Meow~")
         
 class Lion(Animal):
     def Name(self):
         stuff
     def Speak(self):
         print ("Roar!")
-        
-          
-
 ```
 
 
