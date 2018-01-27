@@ -15,4 +15,5 @@
 * OOP
   * [\[P.I.E\]Encapsulation, Inheritance, Polymorphism, Abstraction](pieencapsulation-inheritance-polymorphism-abstraction.md)
 * [2\_array\_pointer](2array-pointer.md)
+* [3\_pointer\_memory](3pointer-memory.md)
 
