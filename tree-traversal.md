@@ -44,6 +44,23 @@ Algorithm Preorder(tree)
    2. Traverse the left subtree, i.e., call Preorder(left-subtree)
    3. Traverse the right subtree, i.e., call Preorder(right-subtree)
 ```
+```c
+/* Given a binary tree, print its nodes in preorder*/
+void printPreorder(struct node* node)
+{
+     if (node == NULL)
+          return;
+ 
+     /* first print data of node */
+     printf("%d ", node->data);  
+ 
+     /* then recur on left sutree */
+     printPreorder(node->left);  
+ 
+     /* now recur on right subtree */
+     printPreorder(node->right);
+} 
+```
 - Postorder
 ```
 Algorithm Postorder(tree)
