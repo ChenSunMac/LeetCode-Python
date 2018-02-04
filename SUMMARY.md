@@ -16,4 +16,6 @@
   * [\[P.I.E\]Encapsulation, Inheritance, Polymorphism, Abstraction](pieencapsulation-inheritance-polymorphism-abstraction.md)
 * [2\_array\_pointer](2array-pointer.md)
 * [3\_pointer\_memory](3pointer-memory.md)
+* [4\_FILE\_STREAM](4file-stream.md)
+* [Tree Traversal](tree-traversal.md)
 
