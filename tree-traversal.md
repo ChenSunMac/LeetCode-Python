@@ -4,8 +4,9 @@
    and a pointer to right child */
 struct node
 {
-    int data;
-    struct node* left, *right;
+     int data;
+     struct node* left;
+     struct node* right;
 };
 ```
 
@@ -24,5 +25,11 @@ Algorithm Preorder(tree)
    2. Traverse the left subtree, i.e., call Preorder(left-subtree)
    3. Traverse the right subtree, i.e., call Preorder(right-subtree)
 ```
-
+- Postorder
+```
+Algorithm Postorder(tree)
+   1. Traverse the left subtree, i.e., call Postorder(left-subtree)
+   2. Traverse the right subtree, i.e., call Postorder(right-subtree)
+   3. Visit the root.
+```
 
