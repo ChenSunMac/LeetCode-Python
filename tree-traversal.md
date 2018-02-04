@@ -18,6 +18,25 @@ Algorithm Inorder(tree)
    2. Visit the root.
    3. Traverse the right subtree, i.e., call Inorder(right-subtree)
 ```
+```c
+/* Given a binary tree, print its nodes in inorder*/
+void printInorder(struct node* node)
+{
+     if (node == NULL)
+          return;
+ 
+     /* first recur on left child */
+     printInorder(node->left);
+ 
+     /* then print the data of node */
+     printf("%d ", node->data);  
+ 
+     /* now recur on right child */
+     printInorder(node->right);
+}
+ 
+```
+
 - Preorder
 ```
 Algorithm Preorder(tree)
