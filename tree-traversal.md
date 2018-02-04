@@ -106,6 +106,8 @@ struct node* newNode(int data)
 
 
 ```c
+#include <stdio.h>
+#include <stdlib.h>
 int main()
 {
      struct node *root  = newNode(1);
