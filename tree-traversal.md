@@ -8,3 +8,5 @@ struct node
     struct node* left, *right;
 };
 ```
+
+## DFS Traversal
