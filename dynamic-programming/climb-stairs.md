@@ -33,3 +33,5 @@ int climbStairs(int n)
         return res[n];  
     }  
 ```
+Time Complexity: O(n),Space complexity : O(n)
+
