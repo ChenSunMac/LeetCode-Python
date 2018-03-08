@@ -9,7 +9,7 @@
 - Find the first number greater than p in the list that is not marked. If there was no such number, stop. Otherwise, let p now equal this number (which is the next prime), and repeat from step 3.
 
 
-```c++
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
  
